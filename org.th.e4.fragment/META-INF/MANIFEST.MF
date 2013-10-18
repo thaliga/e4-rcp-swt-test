@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fragment
+Bundle-SymbolicName: org.th.e4.fragment;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: th
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.th.e4.fragment.data,
+ org.th.e4.fragment.views

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+	name="org.th.e4.app.inject.data">
+	<implementation
+		class="org.th.e4.app.inject.InjectableDataFactory" />
+	<service>
+		<provide interface="org.eclipse.e4.core.contexts.IContextFunction" />
+	</service>
+	<property name="service.context.key" type="String"
+		value="org.th.e4.app.inject.InjectableData" />
+</scr:component>

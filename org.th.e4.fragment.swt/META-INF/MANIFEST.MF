@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fragment.SWT
+Bundle-SymbolicName: org.th.e4.fragment.swt;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: th
+Require-Bundle: org.eclipse.swt;bundle-version="3.102.0",
+ org.eclipse.e4.core.di,
+ javax.annotation;bundle-version="1.1.0",
+ org.th.e4.fragment;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

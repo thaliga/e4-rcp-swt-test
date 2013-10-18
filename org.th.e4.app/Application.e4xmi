@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_TNvcAAzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_TNvcAQzDEeO96MmInZE4BA" selectedElement="_w_S5kA4eEeOrOugcY7Olxw" label="org.th.e4.app" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_w_S5kA4eEeOrOugcY7Olxw" elementId="org.th.e4.app.perspectivestack.0" selectedElement="_ynzIcA4eEeOrOugcY7Olxw">
+      <children xsi:type="advanced:Perspective" xmi:id="_ynzIcA4eEeOrOugcY7Olxw" elementId="org.th.e4.app.perspective.0" selectedElement="_8Nkd8A4gEeOrOugcY7Olxw" label="Demo">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_8Nkd8A4gEeOrOugcY7Olxw" elementId="org.th.e4.app.partsashcontainer.0" selectedElement="_85H8YA4gEeOrOugcY7Olxw" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_85H8YA4gEeOrOugcY7Olxw" elementId="org.th.e4.app.partstack.0"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_cwKX4A5MEeO4YJlQBZsSMg" elementId="org.th.e4.app.menu.0"/>
+  </children>
+  <addons xmi:id="_TNvcAgzDEeO96MmInZE4BA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_TNvcAwzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_TNvcBAzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_TNvcBQzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_TNvcBgzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_TNvcBwzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_TNwDEAzDEeO96MmInZE4BA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

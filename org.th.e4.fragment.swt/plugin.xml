@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension
+         id="modelContribution" 
+         point="org.eclipse.e4.workbench.model">
+      <processor
+            beforefragment="true"
+            class="org.th.e4.fragment.data.Injector">
+      </processor>
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+</plugin>
