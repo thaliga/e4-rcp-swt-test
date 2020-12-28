@@ -18,8 +18,6 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.mockito.stubbing.Answer;
 import org.th.e4.fragment.data.Model;
 import org.th.e4.fragment.data.ModelService;
-import org.th.e4.fragment.views.swt.PresenterSWT;
-import org.th.e4.fragment.views.swt.ViewSWT;
 
 @RunWith(MockitoJUnitRunner.class)
 public class PresenterSWTTest {

@@ -6,9 +6,6 @@ import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 
 import org.junit.Test;
-import org.th.e4.fragment.data.Model;
-import org.th.e4.fragment.data.ModelService;
-import org.th.e4.fragment.data.ModelServiceImpl;
 
 public class ModelServiceImplTest {
 

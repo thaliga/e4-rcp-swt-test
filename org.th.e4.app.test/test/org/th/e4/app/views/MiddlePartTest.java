@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.th.e4.app.inject.InjectableDataImpl;
-import org.th.e4.app.views.MiddlePart;
 
 public class MiddlePartTest {
 

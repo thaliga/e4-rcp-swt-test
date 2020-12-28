@@ -2,8 +2,6 @@ package org.th.e4.fragment.data;
 
 import org.eclipse.e4.core.di.InjectorFactory;
 import org.eclipse.e4.core.di.annotations.Execute;
-import org.th.e4.fragment.data.ModelService;
-import org.th.e4.fragment.data.ModelServiceImpl;
 import org.th.e4.fragment.views.swt.ViewSWT;
 
 public class Injector {

@@ -14,8 +14,6 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.th.e4.fragment.data.Model;
 import org.th.e4.fragment.data.ModelService;
-import org.th.e4.fragment.views.Presenter;
-import org.th.e4.fragment.views.View;
 
 @RunWith(MockitoJUnitRunner.class)
 public class PresenterTest {

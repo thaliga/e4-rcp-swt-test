@@ -5,12 +5,13 @@ Bundle-SymbolicName: org.th.e4.app.test;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: th
 Fragment-Host: org.th.e4.app;bundle-version="1.0.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.eclipse.ui;bundle-version="3.105.0",
- org.junit;bundle-version="4.11.0",
+ org.junit;bundle-version="4.11",
  org.mockito,
  org.hamcrest.library;bundle-version="1.3.0",
  org.eclipse.swtbot.eclipse.finder;bundle-version="2.1.1",
  org.eclipse.swtbot.swt.finder;bundle-version="2.1.1",
  org.apache.log4j;bundle-version="1.2.15"
 Import-Package: org.eclipse.swtbot.swt.finder.junit
+Automatic-Module-Name: org.th.e4.app.test
